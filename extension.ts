@@ -107,6 +107,7 @@ namespace xtraMath {
                 character += checkAmount
                 }
             } else {
+                newExpression = newExpression + expression.charAt(character)
         character += 1        
             }
         }
