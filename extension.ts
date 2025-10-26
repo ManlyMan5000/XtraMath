@@ -14,7 +14,9 @@ enum MyEnum {
     //% block="four"
     Four,
     //% block="five"
-    Five
+    Five,
+    //% block="six"
+    Six
 }
 
 /**
