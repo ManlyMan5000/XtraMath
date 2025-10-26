@@ -21,7 +21,7 @@ enum MyEnum {
  * Custom blocks
  */
 //% weight=100 color=#000000 icon="➕"
-namespace xtraMath {
+namespace xtraMath{
     /**
      * Finds the floor of any real value, n. In other words, it finds the closest integer to n that is also less than n.
      * @param n may be any real constant
@@ -72,7 +72,7 @@ namespace xtraMath {
      * @param value describe value here, eg: 5
      */
      //% block
-     export function differentiate(expression: string): string {
+     export function differentiateBeta(expression: string): string {
          const length = expression.length
          let character = 1
         let newExpression = expression.charAt(0)
