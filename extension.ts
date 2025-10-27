@@ -71,8 +71,8 @@ namespace xtraMath{
         return lastCoefficient / firstCoefficient
     }
     /**
-     * Finds the derivative of any real, constant-degree function
-     * @param expression may be any real, constant-degree function
+     * Finds the derivative of any real, constant-degree function.
+     * @param expression may be any real, constant-degree function.
      */
      //% block
      export function differentiateBeta(expression: string): string {
