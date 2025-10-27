@@ -46,9 +46,10 @@ namespace xtraMath{
      * Finds the value of dividend (mod modulus), where the dividend and modulus may be any real value.
      * @param dividend may be any real value
      * @param modulus may be any real value
+       */
     //% block
-    export function modulo(value: number, value2: number): number {
-        return value % value2
+    export function modulo(dividend: number, modulus: number): number {
+        return dividend % modulus
 }
 
    /**
@@ -57,8 +58,8 @@ namespace xtraMath{
      * @param secondCoefficient may be any real value
      */
     //% block
-    export function sumOfRootsInPolynomialGivenFirstAndSecondCoefficients(a: number, b: number): number {
-        return -b/a
+    export function sumOfRootsInPolynomialGivenFirstAndSecondCoefficients(firstCoefficient: number, secondCoefficient: number): number {
+        return -secondCoefficient/firstCoefficient
     }
     /**
      * Finds the product of the real roots of a real polynomial taken equal to zero.
@@ -66,12 +67,12 @@ namespace xtraMath{
      * @param lastCoefficient may be any real value
      */
     //% block
-    export function productOfRootsInPolynomialGivenFirstAndLastCoefficients(a: number, b: number): number {
-        return b/a
+    export function productOfRootsInPolynomialGivenFirstAndLastCoefficients(firstCoefficient: number, lastCoefficient: number): number {
+        return lastCoefficient / firstCoefficient
     }
     /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
+     * Finds the derivative of any real constant-degree function
+     * @param 
      */
      //% block
      export function differentiateBeta(expression: string): string {
